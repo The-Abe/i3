@@ -1,0 +1,20 @@
+background no
+out_to_console yes
+out_to_x no
+update_interval 1
+total_run_times 0
+short_units yes
+pad_percents 3
+
+override_utf8_locale yes
+
+TEXT
+,[
+{"full_text": " S: ${exec scoutmails} ","color":"\#06989A"},
+{"full_text": " $membar ", "color":"\#06989A"},
+{"full_text": " $cpubar ", "color":"\#06989A"},
+{"full_text": " ${uptime} ","color": "\#06989A"},
+{"full_text": " ${time %a %d %b} ${time %H:%M:%S} ","color": "\#06989A"}
+]
+
+#See 
